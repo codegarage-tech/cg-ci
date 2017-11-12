@@ -1,0 +1,34 @@
+package com.reversecoder.ci.util;
+
+import android.content.Context;
+import android.graphics.Typeface;
+
+/**
+ * @author Md. Rashadul Alam
+ *         Email: rashed.droid@gmail.com
+ */
+public class TypefaceManager {
+
+    private static final String FONT_NAME = "font.otf";
+    private static final String AVENIR_FONT_NAME = "avenir.ttf";
+
+    private static Typeface sTypeface;
+    private static Typeface sAvenirTypeface;
+
+    public static Typeface getTypeface(Context context) {
+        if (sTypeface == null) {
+            sTypeface = Typeface.createFromAsset(context.getAssets(), FONT_NAME);
+        }
+
+        return sTypeface;
+    }
+
+    public static Typeface getAvenirTypeface(Context context) {
+        if (sAvenirTypeface == null) {
+            sAvenirTypeface = Typeface.createFromAsset(context.getAssets(), AVENIR_FONT_NAME);
+        }
+
+        return sAvenirTypeface;
+    }
+
+}

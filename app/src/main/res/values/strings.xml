@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">CI</string>
+    <string name="app_version_name" translatable="false">1.0.9</string>
+    <string name="app_name_advertise">Reverse Coder Ltd</string>
+
+    <!-- Activity Title -->
+    <string name="title_activity_home">PhoneCallAdvertise</string>
+    <string name="title_activity_phone_advertise">PhoneCallAdvertise</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_signup">Sign Up</string>
+
+    <!-- Fragment name -->
+    <string name="title_fragment_contacts">Contacts</string>
+    <string name="title_fragment_profile">Profile Update</string>
+    <string name="title_fragment_how_it_works">How it works</string>
+    <string name="title_fragment_terms_and_condition">Terms and Conditions</string>
+    <string name="title_fragment_privacy_and_policy">Privacy and Policy</string>
+
+    <!--Toast message-->
+    <string name="toast_empty_first_name_field">Please fill first name</string>
+    <string name="toast_empty_last_name_field">Please fill last name</string>
+    <string name="toast_empty_gender_field">Please fill gender</string>
+    <string name="toast_empty_date_of_birth_field">Please fill date of birth</string>
+    <string name="toast_empty_city_field">Please fill city</string>
+    <string name="toast_empty_country_field">Please fill country</string>
+    <string name="toast_empty_email_field">Please fill email address</string>
+    <string name="toast_empty_password_field">Please fill password</string>
+    <string name="toast_already_have_an_account">Already have an account</string>
+    <string name="toast_successfully_registered">Successfully registered</string>
+    <string name="toast_registration_failed">Registration failed</string>
+    <string name="toast_successfully_profile_updated">Successfully profile updated</string>
+    <string name="toast_profile_update_failed">Profile update failed</string>
+    <string name="toast_user_not_found">User not found</string>
+    <string name="toast_could_not_retrieve_info">Could not retrieve info</string>
+    <string name="toast_contact_has_no_number">Contact has no number</string>
+    <string name="toast_contact_has_no_email_id">Contact has no email id</string>
+    <string name="toast_your_sim_card_is_absent">Your sim card is absent</string>
+    <string name="toast_network_error">You have no internet connection!\nPlease connect to internet.</string>
+    <string name="toast_no_info_found">No info found</string>
+
+    <!-- Progressdialog message -->
+    <string name="dialog_loading">Loading...</string>
+
+    <!-- how it works -->
+    <string name="text_how_it_works">THE APP THAT PAYS:\n\nPays users for every advertisement that is seen or heard on their mobile devices! Receive Funds for every incoming call , discounts and free products and services daily, weekly and monthly just for downloading the app!\n\nRemember that funds are paid upon every 25.00 accumulated as you stated before.... disbursed throughout PayPal.</string>
+
+    <!-- Update profile -->
+    <string name="txt_date_of_birth">Choose Your Date of Birth</string>
+    <string name="txt_none">None</string>
+
+    <!-- Home activity -->
+    <string name="txt_your_earning">Your Earning: $</string>
+
+    <!-- Advertise view -->
+    <string name="txt_add_is_counted">Add is counted</string>
+    <string name="txt_error_while_counting_add">Error while counting Add</string>
+</resources>
